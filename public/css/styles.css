@@ -1,0 +1,44 @@
+.playground{
+    width: 500px;
+    height: 500px;
+    background: ghostwhite;
+    border: 5px solid black;
+}
+
+.winner{
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    border: 5px solid gold;
+    background: lightgreen;
+}
+
+.table{
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    background: ghostwhite;
+    border: 5px solid black;
+}
+
+.item{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#scissor{
+    background-image: url("../Images/Game/scissor.png");
+    background-size: cover;
+}
+
+#rock{
+    background-image: url("../Images/Game/rock.png");
+    background-size: cover;
+}
+
+#paper{
+    background-image: url("../Images/Game/paper.png");
+    background-size: cover;
+}
